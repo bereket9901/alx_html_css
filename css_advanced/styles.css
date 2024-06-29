@@ -1,0 +1,90 @@
+body {
+  background-image: url(./images/Object.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 80px;
+  margin: 40px 0 20px;
+  font-weight: bold;
+}
+header {
+  width: 1103.41px;
+  height: 29.46px;
+  margin-top: 35.02px;
+  margin-left: 10%;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.logo {
+  width: 167.02px;
+  height: 29.46px;
+}
+.navigation {
+  width: 234px;
+  height: 15px;
+  margin-top: -23px;
+  margin-left: 70%;
+  gap: 0px;
+  opacity: 0px;
+}
+.navigation-list {
+  margin-left: 3px;
+}
+/* Flex container to center its child */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Full viewport height */
+}
+
+/* Optional: styling for the centered div */
+.center-div {
+  text-align: center;
+}
+
+.primary-button {
+  display: block;
+  margin: 20px auto;
+  padding: 1.1vw;
+  color: white;
+  background-color: #c271ff;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.testimony-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.testimony-div {
+  margin-right: 6rem;
+}
+.testimony-img {
+  height: 10rem;
+}
+.primary-span {
+  color: #c271ff;
+  font-weight: bold;
+}
+p {
+  font-size: 1rem;
+}
+.span-landing {
+  margin-right: 10%;
+  font-weight: bolder;
+}
+.section-testimonials {
+  background-color: #c271ff;
+  margin-top: 4vh;
+  padding: 100px;
+  width: 100%;
+}
