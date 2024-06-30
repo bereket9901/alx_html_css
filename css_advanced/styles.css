@@ -1,10 +1,12 @@
 body {
   background-image: url(./images/Object.png);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-size: fill;
+  width: 100vw;
 }
 main {
-  width: 100%;
+  width: 100vw;
   margin: 0;
   padding: 0;
 }
@@ -17,7 +19,7 @@ header {
   width: 1103.41px;
   height: 29.46px;
   margin-top: 35.02px;
-  margin-left: 10%;
+  margin-left: 0%;
   padding: 0px;
   gap: 0px;
   opacity: 0px;
@@ -25,12 +27,13 @@ header {
 .logo {
   width: 167.02px;
   height: 29.46px;
+  margin-left: 20%;
 }
 .navigation {
-  width: 234px;
+  width: 266px;
   height: 15px;
   margin-top: -23px;
-  margin-left: 70%;
+  margin-left: 100%;
   gap: 0px;
   opacity: 0px;
 }
@@ -57,7 +60,7 @@ header {
   color: white;
   background-color: #c271ff;
   border: none;
-  border-radius: 20px;
+  border-radius: 50px;
   font-weight: 600;
 }
 .testimony-flex {
@@ -71,7 +74,7 @@ header {
 .testimony-img {
   height: 10rem;
 }
-.primary-span {
+.primary-color {
   color: #c271ff;
   font-weight: bold;
 }
@@ -84,7 +87,110 @@ p {
 }
 .section-testimonials {
   background-color: #c271ff;
-  margin-top: 4vh;
-  padding: 100px;
+  margin-top: 11.7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  gap: 25px;
+}
+.black-text {
+  color: black;
+}
+.grey-text {
+  color: grey;
+}
+.text-center {
+  text-align: center;
+}
+.tutorials-div {
+  width: 17.6vw;
+}
+.tutor-div {
+  display: flex;
+  align-items: self-start;
+  gap: 10px;
+}
+.tutor-image {
+  width: 2.8vw;
+}
+.tutor-name {
+  font-size: medium;
+}
+.rate-div {
+  display: flex;
+  align-items: self-start;
+  gap: 80px;
+}
+
+.image-container {
+  position: relative;
   width: 100%;
+}
+
+.tutorial-image {
+  display: block;
+  width: 100%;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tutorials-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 5vw;
+}
+.tutorials-header {
+  margin-top: 5vw;
+}
+.section-membership {
+  background-color: #071629;
+  margin-top: 11.7vh;
+  padding-bottom: 2vw;
+}
+.div-membership {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 4vw;
+}
+.h2-membership {
+  padding-top: 5vw;
+}
+.div-membership-type {
+  width: 15vw;
+}
+.div-FAQ {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.div-FAQ-column {
+  width: 30vw;
+}
+.margin-5 {
+  margin-top: 5vw;
+}
+.margin-3{
+  margin-top: 3vw;
+}
+footer{
+  background-color: #071629;
+  padding: 6vw;
+  margin-top: 5vw;
+}
+.div-footer{
+  display: flex;
+  justify-content:center;
+  gap: 800px;
+}
+.div-social{
+  display: flex;
+  gap: 20px;
 }
