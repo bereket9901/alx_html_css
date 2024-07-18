@@ -45,25 +45,30 @@ button:hover {
   gap: 45px;
 }
 .results-pentagon {
-  background: url("./asset/images/pentagon.png");
-  background-size: cover;
+  background-image: url("./asset/images/pentagone.png"); /* Path to your image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 200px;
+  height: 200px;
 }
 .results-article {
   text-align: center;
   width: 60%;
 }
-.images-pentagon {
-  display: block;
-  width: 100%;
-  height: auto;
+.results-pentagon-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .text-pentagon {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 24px;
+  margin-top: 70px;
+  margin-bottom: -3px;
+  font-size: 46px;
   font-weight: bold;
-  text-shadow: 2px 2px 4px #000000;
 }
 .contact {
   display: flex;
@@ -92,9 +97,8 @@ input {
   border-color: rgb(198, 198, 198);
   width: 335px;
 }
-.mt{
+.mt {
   margin-top: 50px;
-
 }
 /* Mobile phones */
 @media only screen and (max-width: 481px) {
